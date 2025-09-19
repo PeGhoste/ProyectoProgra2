@@ -3,23 +3,24 @@ package Modelo;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
+import java.sql.Timestamp;
 import java.util.ArrayList;
 
 import Connection.CsConexion;
 
-public class CsEmpresas {
+public class CsHorario {
     
     private Connection con;  // conexión a la base de datos
     private Statement stm;   // para ejecutar consultas
     private ResultSet rs;    // resultados de consultas
     
-    public CsEmpresas() {
+    public CsHorario() {
         this.con = null;
         this.stm = null;
     }
     
     // insertar datos
-    public int insertar(String Nombre, String Descripcion) {
+    public int insertarHorario(java.util.Date HoraInicio, java.util.Date HoraFin) {
         int respuesta = 0;
         CsConexion c1 = new CsConexion();
         con = c1.conectar();
@@ -27,8 +28,9 @@ public class CsEmpresas {
         try {
             stm = con.createStatement();
             respuesta = stm.executeUpdate(
-                "insert into DBProyectoProgra2.dbo.Empresas (Nombre, Descripcion) " +
-                "values ('" + Nombre + "', '" + Descripcion + "')"
+                "insert into DBProyectoProgra2.dbo.Horarios (HoraInicio, HoraFin) " +
+                "values ('" + new Timestamp(HoraInicio.getTime()) + 
+                "', '" + new Timestamp(HoraFin.getTime()) + "')"
             );
             
             c1.desconectar();
@@ -42,7 +44,7 @@ public class CsEmpresas {
     }    
     
     // actualizar datos
-    public int actualizar(String Nombre, String Descripcion, int idEmpresa) {
+    public int actualizarHorario(java.util.Date HoraInicio, java.util.Date HoraFin, int idHorario) {
         int respuesta = 0;
         CsConexion c1 = new CsConexion();
         con = c1.conectar();
@@ -50,9 +52,9 @@ public class CsEmpresas {
         try {
             stm = con.createStatement();
             respuesta = stm.executeUpdate(
-                "update dbo.Empresas set Nombre='" + Nombre + 
-                "', Descripcion='" + Descripcion + 
-                "' where idEmpresa=" + idEmpresa
+                "update dbo.Horario set HoraInicio='" + new Timestamp(HoraInicio.getTime()) +
+                "', HoraFin='" + new Timestamp(HoraFin.getTime()) +
+                "' where IdHorario=" + idHorario
             );
             
             c1.desconectar();
@@ -65,7 +67,7 @@ public class CsEmpresas {
     }
     
     // eliminar datos
-    public int eliminar(int idEmpresa) {
+    public int eliminarHorario(int idHorario) {
         int respuesta = 0;
         CsConexion c1 = new CsConexion();
         con = c1.conectar();
@@ -73,7 +75,7 @@ public class CsEmpresas {
         try {
             stm = con.createStatement();
             respuesta = stm.executeUpdate(
-                "delete from dbo.Empresas where idEmpresa=" + idEmpresa
+                "delete from dbo.Horario where IdHorario=" + idHorario
             );
             
             c1.desconectar();
@@ -86,9 +88,9 @@ public class CsEmpresas {
     }
    
     // listar todos los registros
-    public ArrayList<Empresas> listarEmpresas() {
-        Empresas p = null; 
-        ArrayList<Empresas> lista = new ArrayList<>();
+    public ArrayList<Horario> listarHorario() {
+        Horario h = null; 
+        ArrayList<Horario> lista = new ArrayList<>();
                 
         CsConexion c1 = new CsConexion();
         con = c1.conectar();
@@ -96,15 +98,15 @@ public class CsEmpresas {
         
         try {
             stm = con.createStatement();
-            rs = stm.executeQuery("select * from dbo.Empresas");
+            rs = stm.executeQuery("select * from dbo.Horario");
             
             while (rs.next()) {
-                p = new Empresas(
-                        rs.getString("Nombre"),
-                        rs.getString("Descripcion"),
-                        rs.getInt("idEmpresa")
+                h = new Horario(
+                        rs.getInt("IdHorario"),
+                        rs.getTimestamp("HoraInicio"),
+                        rs.getTimestamp("HoraFin")
                 );
-                lista.add(p);
+                lista.add(h);
             }
             
             c1.desconectar();
@@ -117,8 +119,8 @@ public class CsEmpresas {
     }
     
     // listar por ID
-    public Empresas listarEmpresasPorID(int idEmpresa) {
-        Empresas p = null; 
+    public Horario listarHorarioPorID(int idHorario) {
+        Horario h = null; 
                         
         CsConexion c1 = new CsConexion();
         con = c1.conectar();
@@ -127,14 +129,14 @@ public class CsEmpresas {
         try {
             stm = con.createStatement();
             rs = stm.executeQuery(
-                "select * from dbo.Empresas where idEmpresa=" + idEmpresa
+                "select * from dbo.Horario where IdHorario=" + idHorario
             );
             
             while (rs.next()) {
-                p = new Empresas(
-                        rs.getString("Nombre"),
-                        rs.getString("Descripcion"),
-                        rs.getInt("idEmpresa")
+                h = new Horario(
+                        rs.getInt("IdHorario"),
+                        rs.getTimestamp("HoraInicio"),
+                        rs.getTimestamp("HoraFin")
                 );
             }
             
@@ -144,6 +146,6 @@ public class CsEmpresas {
         } catch (Exception ex) {
             ex.printStackTrace();
         }
-        return p;
+        return h;
     }
 }

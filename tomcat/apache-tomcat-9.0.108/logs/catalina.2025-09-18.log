@@ -1,0 +1,482 @@
+18-Sep-2025 09:39:29.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.108
+18-Sep-2025 09:39:29.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Jul 31 2025 18:19:48 UTC
+18-Sep-2025 09:39:29.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.108.0
+18-Sep-2025 09:39:29.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+18-Sep-2025 09:39:29.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+18-Sep-2025 09:39:29.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+18-Sep-2025 09:39:29.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-24
+18-Sep-2025 09:39:29.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       24.0.1+9-30
+18-Sep-2025 09:39:29.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+18-Sep-2025 09:39:29.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108
+18-Sep-2025 09:39:29.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108
+18-Sep-2025 09:39:29.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Sep-2025 09:39:29.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+18-Sep-2025 09:39:29.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+18-Sep-2025 09:39:29.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+18-Sep-2025 09:39:29.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+18-Sep-2025 09:39:29.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Sep-2025 09:39:29.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Sep-2025 09:39:29.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\logging.properties
+18-Sep-2025 09:39:29.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Sep-2025 09:39:29.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+18-Sep-2025 09:39:29.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Sep-2025 09:39:29.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dsun.io.useCanonCaches=false
+18-Sep-2025 09:39:29.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+18-Sep-2025 09:39:29.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108
+18-Sep-2025 09:39:29.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108
+18-Sep-2025 09:39:29.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\temp
+18-Sep-2025 09:39:29.849 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [C:\Program Files\Java\jdk-24\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\app\josep\product\21c\dbhomeXE\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Flutter\flutter\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\josep\AppData\Local\Microsoft\WindowsApps;C:\Users\josep\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\josep\AppData\Local\GitHubDesktop\bin;C:\Users\josep\AppData\Local\gitkraken\bin;C:\Users\josep\AppData\Roaming\TinyTeX\bin\windows;C:\Flutter\flutter\bin;C:\Users\josep\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\josep\AppData\Local\Microsoft\WindowsApps;C:\Users\josep\AppData\Local\Programs\Windsurf\bin;C:\Users\josep\.dotnet\tools;C:\Users\josep\AppData\Roaming\npm;.]
+18-Sep-2025 09:39:30.268 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+18-Sep-2025 09:39:30.301 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [766] milliseconds
+18-Sep-2025 09:39:30.371 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+18-Sep-2025 09:39:30.373 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.108]
+18-Sep-2025 09:39:30.388 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\Citas.xml]
+18-Sep-2025 09:39:30.412 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Citas] in deployment descriptor [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\Citas.xml] has been ignored
+18-Sep-2025 09:39:32.699 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 09:39:34.292 INFO [main] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 09:39:34.297 INFO [main] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 09:39:34.298 INFO [main] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 09:39:34.339 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\Citas.xml] has finished in [3.947] ms
+18-Sep-2025 09:39:34.339 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\ProyectoProgra2.xml]
+18-Sep-2025 09:39:34.340 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProyectoProgra2] in deployment descriptor [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\ProyectoProgra2.xml] has been ignored
+18-Sep-2025 09:39:34.349 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\ProyectoProgra2.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:124)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1579)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:148)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@5cb76070]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:406)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4172)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4294)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\ProyectoProgra2\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:758)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:715)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 39 more
+18-Sep-2025 09:39:34.378 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\ProyectoProgra2.xml] has finished in [39] ms
+18-Sep-2025 09:39:34.379 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\TrabajoenGrupo.xml]
+18-Sep-2025 09:39:34.381 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/TrabajoenGrupo] in deployment descriptor [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\TrabajoenGrupo.xml] has been ignored
+18-Sep-2025 09:39:34.389 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\TrabajoenGrupo.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:124)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1579)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:148)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@63318b56]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:406)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4172)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4294)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\TrabajoenGrupo\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:758)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:715)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 39 more
+18-Sep-2025 09:39:34.576 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\TrabajoenGrupo.xml] has finished in [196] ms
+18-Sep-2025 09:39:34.577 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\webapps\docs] de la aplicación web
+18-Sep-2025 09:39:34.639 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\webapps\docs] has finished in [63] ms
+18-Sep-2025 09:39:34.639 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\webapps\examples] de la aplicación web
+18-Sep-2025 09:39:35.427 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\webapps\examples] has finished in [788] ms
+18-Sep-2025 09:39:35.427 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\webapps\host-manager] de la aplicación web
+18-Sep-2025 09:39:35.489 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\webapps\host-manager] has finished in [62] ms
+18-Sep-2025 09:39:35.489 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\webapps\manager] de la aplicación web
+18-Sep-2025 09:39:35.548 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\webapps\manager] has finished in [59] ms
+18-Sep-2025 09:39:35.549 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\webapps\ROOT] de la aplicación web
+18-Sep-2025 09:39:35.587 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\webapps\ROOT] has finished in [37] ms
+18-Sep-2025 09:39:35.593 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Sep-2025 09:39:35.631 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [5326] milliseconds
+18-Sep-2025 09:41:32.639 INFO [http-nio-8080-exec-2] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Citas]
+18-Sep-2025 09:41:32.641 INFO [http-nio-8080-exec-2] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 09:41:32.647 INFO [http-nio-8080-exec-2] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 09:41:32.648 INFO [http-nio-8080-exec-2] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 09:41:32.652 SEVERE [http-nio-8080-exec-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [Citas] creó un ThreadLocal con clave del tipo [com.sun.xml.ws.api.server.ThreadLocalContainerResolver$1] (valor [com.sun.xml.ws.api.server.ThreadLocalContainerResolver$1@6c0ff07]) y un valor del tipo [com.sun.xml.ws.api.server.Container.NoneContainer] (valor [com.sun.xml.ws.api.server.Container$NoneContainer@6e056206]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+18-Sep-2025 09:41:33.873 INFO [http-nio-8080-exec-2] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 09:41:35.052 INFO [http-nio-8080-exec-2] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 09:41:35.053 INFO [http-nio-8080-exec-2] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 09:41:35.053 INFO [http-nio-8080-exec-2] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 09:41:35.056 INFO [http-nio-8080-exec-2] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+18-Sep-2025 09:41:54.252 INFO [http-nio-8080-exec-4] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Citas]
+18-Sep-2025 09:41:54.253 INFO [http-nio-8080-exec-4] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 09:41:54.258 INFO [http-nio-8080-exec-4] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 09:41:54.260 INFO [http-nio-8080-exec-4] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 09:41:55.416 INFO [http-nio-8080-exec-4] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 09:41:56.873 INFO [http-nio-8080-exec-4] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 09:41:56.873 INFO [http-nio-8080-exec-4] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 09:41:56.873 INFO [http-nio-8080-exec-4] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 09:41:56.876 INFO [http-nio-8080-exec-4] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+18-Sep-2025 09:41:57.208 INFO [http-nio-8080-exec-9] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Citas]
+18-Sep-2025 09:41:57.208 INFO [http-nio-8080-exec-9] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 09:41:57.212 INFO [http-nio-8080-exec-9] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 09:41:57.212 INFO [http-nio-8080-exec-9] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 09:41:58.269 INFO [http-nio-8080-exec-9] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 09:41:59.431 INFO [http-nio-8080-exec-9] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 09:41:59.432 INFO [http-nio-8080-exec-9] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 09:41:59.432 INFO [http-nio-8080-exec-9] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 09:41:59.435 INFO [http-nio-8080-exec-9] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+18-Sep-2025 09:47:36.812 INFO [http-nio-8080-exec-23] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 09:47:36.817 INFO [http-nio-8080-exec-23] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 09:47:36.817 INFO [http-nio-8080-exec-23] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 09:47:37.336 INFO [http-nio-8080-exec-23] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Citas]
+18-Sep-2025 09:47:40.520 INFO [http-nio-8080-exec-22] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\Citas.xml]
+18-Sep-2025 09:47:40.523 WARNING [http-nio-8080-exec-22] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Citas] in deployment descriptor [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\Citas.xml] has been ignored
+18-Sep-2025 09:47:41.681 INFO [http-nio-8080-exec-22] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 09:47:42.813 INFO [http-nio-8080-exec-22] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 09:47:42.814 INFO [http-nio-8080-exec-22] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 09:47:42.814 INFO [http-nio-8080-exec-22] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 09:47:42.819 INFO [http-nio-8080-exec-22] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\Citas.xml] has finished in [2.299] ms
+18-Sep-2025 09:47:42.822 INFO [http-nio-8080-exec-17] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Citas]] after start() had already been called. The second call will be ignored.
+18-Sep-2025 10:13:41.618 INFO [http-nio-8080-exec-29] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 10:13:41.635 INFO [http-nio-8080-exec-29] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:13:41.635 INFO [http-nio-8080-exec-29] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:13:42.141 INFO [http-nio-8080-exec-29] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Citas]
+18-Sep-2025 10:13:46.890 INFO [http-nio-8080-exec-32] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\Citas.xml]
+18-Sep-2025 10:13:46.891 WARNING [http-nio-8080-exec-32] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Citas] in deployment descriptor [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\Citas.xml] has been ignored
+18-Sep-2025 10:13:47.950 INFO [http-nio-8080-exec-32] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 10:13:49.168 INFO [http-nio-8080-exec-32] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 10:13:49.168 INFO [http-nio-8080-exec-32] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:13:49.168 INFO [http-nio-8080-exec-32] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:13:49.174 INFO [http-nio-8080-exec-32] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\Citas.xml] has finished in [2.284] ms
+18-Sep-2025 10:13:49.177 INFO [http-nio-8080-exec-26] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Citas]] after start() had already been called. The second call will be ignored.
+18-Sep-2025 10:14:42.320 INFO [http-nio-8080-exec-37] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 10:14:42.325 INFO [http-nio-8080-exec-37] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:14:42.326 INFO [http-nio-8080-exec-37] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:14:42.830 INFO [http-nio-8080-exec-37] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Citas]
+18-Sep-2025 10:14:50.954 INFO [http-nio-8080-exec-36] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\Citas.xml]
+18-Sep-2025 10:14:50.954 WARNING [http-nio-8080-exec-36] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Citas] in deployment descriptor [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\Citas.xml] has been ignored
+18-Sep-2025 10:14:51.953 INFO [http-nio-8080-exec-36] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 10:14:52.998 INFO [http-nio-8080-exec-36] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 10:14:52.998 INFO [http-nio-8080-exec-36] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:14:52.998 INFO [http-nio-8080-exec-36] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:14:53.003 INFO [http-nio-8080-exec-36] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\Citas.xml] has finished in [2.050] ms
+18-Sep-2025 10:14:53.004 INFO [http-nio-8080-exec-44] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Citas]] after start() had already been called. The second call will be ignored.
+18-Sep-2025 10:15:55.841 INFO [http-nio-8080-exec-45] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 10:15:55.845 INFO [http-nio-8080-exec-45] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:15:55.845 INFO [http-nio-8080-exec-45] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:15:56.349 INFO [http-nio-8080-exec-45] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Citas]
+18-Sep-2025 10:15:58.521 INFO [http-nio-8080-exec-51] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\Citas.xml]
+18-Sep-2025 10:15:58.523 WARNING [http-nio-8080-exec-51] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Citas] in deployment descriptor [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\Citas.xml] has been ignored
+18-Sep-2025 10:15:59.512 INFO [http-nio-8080-exec-51] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 10:16:00.642 INFO [http-nio-8080-exec-51] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 10:16:00.642 INFO [http-nio-8080-exec-51] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:16:00.642 INFO [http-nio-8080-exec-51] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:16:00.646 INFO [http-nio-8080-exec-51] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\Citas.xml] has finished in [2.125] ms
+18-Sep-2025 10:16:00.650 INFO [http-nio-8080-exec-47] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Citas]] after start() had already been called. The second call will be ignored.
+18-Sep-2025 10:16:44.757 INFO [http-nio-8080-exec-49] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Citas]
+18-Sep-2025 10:16:44.757 INFO [http-nio-8080-exec-49] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 10:16:44.760 INFO [http-nio-8080-exec-49] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:16:44.760 INFO [http-nio-8080-exec-49] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:16:45.759 INFO [http-nio-8080-exec-49] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 10:16:46.819 INFO [http-nio-8080-exec-49] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 10:16:46.819 INFO [http-nio-8080-exec-49] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:16:46.819 INFO [http-nio-8080-exec-49] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:16:46.822 INFO [http-nio-8080-exec-49] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+18-Sep-2025 10:16:48.245 INFO [http-nio-8080-exec-57] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Citas]
+18-Sep-2025 10:16:48.245 INFO [http-nio-8080-exec-57] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 10:16:48.250 INFO [http-nio-8080-exec-57] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:16:48.250 INFO [http-nio-8080-exec-57] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:16:49.218 INFO [http-nio-8080-exec-57] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 10:16:50.278 INFO [http-nio-8080-exec-57] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 10:16:50.279 INFO [http-nio-8080-exec-57] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:16:50.279 INFO [http-nio-8080-exec-57] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:16:50.282 INFO [http-nio-8080-exec-57] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+18-Sep-2025 10:17:04.935 INFO [http-nio-8080-exec-59] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Citas]
+18-Sep-2025 10:17:04.935 INFO [http-nio-8080-exec-59] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 10:17:04.939 INFO [http-nio-8080-exec-59] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:17:04.939 INFO [http-nio-8080-exec-59] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:17:05.971 INFO [http-nio-8080-exec-59] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 10:17:07.032 INFO [http-nio-8080-exec-59] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 10:17:07.032 INFO [http-nio-8080-exec-59] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:17:07.032 INFO [http-nio-8080-exec-59] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:17:07.036 INFO [http-nio-8080-exec-59] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+18-Sep-2025 10:18:04.580 INFO [http-nio-8080-exec-44] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Citas]
+18-Sep-2025 10:18:04.581 INFO [http-nio-8080-exec-44] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 10:18:04.590 INFO [http-nio-8080-exec-44] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:18:04.590 INFO [http-nio-8080-exec-44] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:18:05.985 INFO [http-nio-8080-exec-44] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 10:18:07.183 INFO [http-nio-8080-exec-44] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 10:18:07.184 INFO [http-nio-8080-exec-44] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:18:07.184 INFO [http-nio-8080-exec-44] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:18:07.187 INFO [http-nio-8080-exec-44] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+18-Sep-2025 10:22:07.149 INFO [http-nio-8080-exec-68] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Citas]
+18-Sep-2025 10:22:07.149 INFO [http-nio-8080-exec-68] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 10:22:07.155 INFO [http-nio-8080-exec-68] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:22:07.155 INFO [http-nio-8080-exec-68] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:22:08.201 INFO [http-nio-8080-exec-68] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 10:22:09.308 INFO [http-nio-8080-exec-68] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 10:22:09.309 INFO [http-nio-8080-exec-68] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:22:09.309 INFO [http-nio-8080-exec-68] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:22:09.312 INFO [http-nio-8080-exec-68] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+18-Sep-2025 10:22:42.465 INFO [http-nio-8080-exec-65] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Citas]
+18-Sep-2025 10:22:42.466 INFO [http-nio-8080-exec-65] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 10:22:42.473 INFO [http-nio-8080-exec-65] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:22:42.473 INFO [http-nio-8080-exec-65] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:22:43.788 INFO [http-nio-8080-exec-65] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 10:22:45.045 INFO [http-nio-8080-exec-65] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 10:22:45.045 INFO [http-nio-8080-exec-65] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:22:45.046 INFO [http-nio-8080-exec-65] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:22:45.051 INFO [http-nio-8080-exec-65] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+18-Sep-2025 10:22:48.251 INFO [http-nio-8080-exec-76] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Citas]
+18-Sep-2025 10:22:48.251 INFO [http-nio-8080-exec-76] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 10:22:48.257 INFO [http-nio-8080-exec-76] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:22:48.257 INFO [http-nio-8080-exec-76] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:22:49.397 INFO [http-nio-8080-exec-76] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 10:22:50.492 INFO [http-nio-8080-exec-76] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 10:22:50.493 INFO [http-nio-8080-exec-76] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:22:50.493 INFO [http-nio-8080-exec-76] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:22:50.494 INFO [http-nio-8080-exec-76] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+18-Sep-2025 10:23:32.407 INFO [http-nio-8080-exec-66] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Citas]
+18-Sep-2025 10:23:32.407 INFO [http-nio-8080-exec-66] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 10:23:32.412 INFO [http-nio-8080-exec-66] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:23:32.412 INFO [http-nio-8080-exec-66] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:23:33.996 INFO [http-nio-8080-exec-66] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 10:23:35.416 INFO [http-nio-8080-exec-66] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 10:23:35.417 INFO [http-nio-8080-exec-66] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:23:35.417 INFO [http-nio-8080-exec-66] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:23:35.420 INFO [http-nio-8080-exec-66] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+18-Sep-2025 10:23:35.743 INFO [http-nio-8080-exec-67] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Citas]
+18-Sep-2025 10:23:35.743 INFO [http-nio-8080-exec-67] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 10:23:35.747 INFO [http-nio-8080-exec-67] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:23:35.747 INFO [http-nio-8080-exec-67] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:23:36.832 INFO [http-nio-8080-exec-67] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 10:23:38.165 INFO [http-nio-8080-exec-67] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 10:23:38.165 INFO [http-nio-8080-exec-67] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:23:38.165 INFO [http-nio-8080-exec-67] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:23:38.169 INFO [http-nio-8080-exec-67] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+18-Sep-2025 10:24:11.617 INFO [http-nio-8080-exec-81] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Citas]
+18-Sep-2025 10:24:11.617 INFO [http-nio-8080-exec-81] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 10:24:11.623 INFO [http-nio-8080-exec-81] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:24:11.623 INFO [http-nio-8080-exec-81] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:24:12.737 INFO [http-nio-8080-exec-81] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 10:24:13.934 INFO [http-nio-8080-exec-81] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 10:24:13.935 INFO [http-nio-8080-exec-81] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:24:13.935 INFO [http-nio-8080-exec-81] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:24:13.938 INFO [http-nio-8080-exec-81] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+18-Sep-2025 10:24:14.981 INFO [http-nio-8080-exec-77] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Citas]
+18-Sep-2025 10:24:14.982 INFO [http-nio-8080-exec-77] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 10:24:14.986 INFO [http-nio-8080-exec-77] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:24:14.986 INFO [http-nio-8080-exec-77] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:24:16.173 INFO [http-nio-8080-exec-77] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 10:24:17.910 INFO [http-nio-8080-exec-77] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 10:24:17.912 INFO [http-nio-8080-exec-77] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:24:17.912 INFO [http-nio-8080-exec-77] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:24:17.914 INFO [http-nio-8080-exec-77] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+18-Sep-2025 10:24:33.806 INFO [http-nio-8080-exec-79] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Citas]
+18-Sep-2025 10:24:33.806 INFO [http-nio-8080-exec-79] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 10:24:33.810 INFO [http-nio-8080-exec-79] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:24:33.810 INFO [http-nio-8080-exec-79] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:24:34.989 INFO [http-nio-8080-exec-79] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 10:24:36.203 INFO [http-nio-8080-exec-79] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 10:24:36.203 INFO [http-nio-8080-exec-79] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:24:36.203 INFO [http-nio-8080-exec-79] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:24:36.208 INFO [http-nio-8080-exec-79] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+18-Sep-2025 10:24:36.538 INFO [http-nio-8080-exec-83] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Citas]
+18-Sep-2025 10:24:36.538 INFO [http-nio-8080-exec-83] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 10:24:36.542 INFO [http-nio-8080-exec-83] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:24:36.542 INFO [http-nio-8080-exec-83] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:24:37.552 INFO [http-nio-8080-exec-83] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 10:24:38.729 INFO [http-nio-8080-exec-83] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 10:24:38.729 INFO [http-nio-8080-exec-83] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:24:38.729 INFO [http-nio-8080-exec-83] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:24:38.732 INFO [http-nio-8080-exec-83] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+18-Sep-2025 10:24:42.675 INFO [http-nio-8080-exec-82] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Citas]
+18-Sep-2025 10:24:42.676 INFO [http-nio-8080-exec-82] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 10:24:42.684 INFO [http-nio-8080-exec-82] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:24:42.685 INFO [http-nio-8080-exec-82] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:24:44.411 INFO [http-nio-8080-exec-82] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 10:24:45.694 INFO [http-nio-8080-exec-82] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 10:24:45.694 INFO [http-nio-8080-exec-82] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:24:45.694 INFO [http-nio-8080-exec-82] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:24:45.698 INFO [http-nio-8080-exec-82] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+18-Sep-2025 10:25:10.051 INFO [http-nio-8080-exec-71] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Citas]
+18-Sep-2025 10:25:10.051 INFO [http-nio-8080-exec-71] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 10:25:10.056 INFO [http-nio-8080-exec-71] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:25:10.057 INFO [http-nio-8080-exec-71] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:25:11.141 INFO [http-nio-8080-exec-71] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 10:25:12.232 INFO [http-nio-8080-exec-71] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 10:25:12.234 INFO [http-nio-8080-exec-71] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:25:12.234 INFO [http-nio-8080-exec-71] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:25:12.236 INFO [http-nio-8080-exec-71] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+18-Sep-2025 10:25:47.435 INFO [http-nio-8080-exec-72] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Citas]
+18-Sep-2025 10:25:47.435 INFO [http-nio-8080-exec-72] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 10:25:47.440 INFO [http-nio-8080-exec-72] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:25:47.440 INFO [http-nio-8080-exec-72] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:25:48.508 INFO [http-nio-8080-exec-72] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 10:25:49.628 INFO [http-nio-8080-exec-72] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 10:25:49.628 INFO [http-nio-8080-exec-72] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:25:49.629 INFO [http-nio-8080-exec-72] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:25:49.632 INFO [http-nio-8080-exec-72] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+18-Sep-2025 10:25:52.698 INFO [http-nio-8080-exec-90] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Citas]
+18-Sep-2025 10:25:52.698 INFO [http-nio-8080-exec-90] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 10:25:52.702 INFO [http-nio-8080-exec-90] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:25:52.703 INFO [http-nio-8080-exec-90] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:25:53.719 INFO [http-nio-8080-exec-90] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 10:25:54.810 INFO [http-nio-8080-exec-90] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 10:25:54.811 INFO [http-nio-8080-exec-90] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:25:54.811 INFO [http-nio-8080-exec-90] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:25:54.813 INFO [http-nio-8080-exec-90] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+18-Sep-2025 10:26:05.509 INFO [http-nio-8080-exec-93] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Citas]
+18-Sep-2025 10:26:05.510 INFO [http-nio-8080-exec-93] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 10:26:05.515 INFO [http-nio-8080-exec-93] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:26:05.516 INFO [http-nio-8080-exec-93] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:26:06.772 INFO [http-nio-8080-exec-93] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 10:26:07.923 INFO [http-nio-8080-exec-93] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 10:26:07.923 INFO [http-nio-8080-exec-93] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:26:07.923 INFO [http-nio-8080-exec-93] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:26:07.926 INFO [http-nio-8080-exec-93] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+18-Sep-2025 10:27:45.258 INFO [http-nio-8080-exec-99] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 10:27:45.263 INFO [http-nio-8080-exec-99] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:27:45.263 INFO [http-nio-8080-exec-99] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:27:45.768 INFO [http-nio-8080-exec-99] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Citas]
+18-Sep-2025 10:27:49.531 INFO [http-nio-8080-exec-104] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\Citas.xml]
+18-Sep-2025 10:27:49.532 WARNING [http-nio-8080-exec-104] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Citas] in deployment descriptor [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\Citas.xml] has been ignored
+18-Sep-2025 10:27:50.793 INFO [http-nio-8080-exec-104] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 10:27:52.119 INFO [http-nio-8080-exec-104] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 10:27:52.120 INFO [http-nio-8080-exec-104] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:27:52.120 INFO [http-nio-8080-exec-104] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:27:52.128 INFO [http-nio-8080-exec-104] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\Citas.xml] has finished in [2.598] ms
+18-Sep-2025 10:27:52.133 INFO [http-nio-8080-exec-106] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Citas]] after start() had already been called. The second call will be ignored.
+18-Sep-2025 10:28:45.861 INFO [http-nio-8080-exec-114] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 10:28:45.865 INFO [http-nio-8080-exec-114] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:28:45.865 INFO [http-nio-8080-exec-114] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:28:46.368 INFO [http-nio-8080-exec-114] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Citas]
+18-Sep-2025 10:28:49.630 INFO [http-nio-8080-exec-111] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\Citas.xml]
+18-Sep-2025 10:28:49.632 WARNING [http-nio-8080-exec-111] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Citas] in deployment descriptor [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\Citas.xml] has been ignored
+18-Sep-2025 10:28:50.841 INFO [http-nio-8080-exec-111] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 10:28:52.063 INFO [http-nio-8080-exec-111] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 10:28:52.063 INFO [http-nio-8080-exec-111] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:28:52.063 INFO [http-nio-8080-exec-111] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:28:52.067 INFO [http-nio-8080-exec-111] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\Citas.xml] has finished in [2.436] ms
+18-Sep-2025 10:28:52.069 INFO [http-nio-8080-exec-113] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Citas]] after start() had already been called. The second call will be ignored.
+18-Sep-2025 10:30:18.624 INFO [http-nio-8080-exec-126] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 10:30:18.628 INFO [http-nio-8080-exec-126] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:30:18.628 INFO [http-nio-8080-exec-126] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:30:19.132 INFO [http-nio-8080-exec-126] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Citas]
+18-Sep-2025 10:30:22.566 INFO [http-nio-8080-exec-124] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\Citas.xml]
+18-Sep-2025 10:30:22.566 WARNING [http-nio-8080-exec-124] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Citas] in deployment descriptor [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\Citas.xml] has been ignored
+18-Sep-2025 10:30:23.686 INFO [http-nio-8080-exec-124] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 10:30:24.947 INFO [http-nio-8080-exec-124] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 10:30:24.947 INFO [http-nio-8080-exec-124] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:30:24.948 INFO [http-nio-8080-exec-124] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:30:24.951 INFO [http-nio-8080-exec-124] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\Citas.xml] has finished in [2.385] ms
+18-Sep-2025 10:30:24.954 INFO [http-nio-8080-exec-121] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Citas]] after start() had already been called. The second call will be ignored.
+18-Sep-2025 10:31:25.124 INFO [http-nio-8080-exec-132] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Citas]
+18-Sep-2025 10:31:25.125 INFO [http-nio-8080-exec-132] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 10:31:25.129 INFO [http-nio-8080-exec-132] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:31:25.129 INFO [http-nio-8080-exec-132] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:31:26.242 INFO [http-nio-8080-exec-132] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 10:31:27.423 INFO [http-nio-8080-exec-132] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 10:31:27.424 INFO [http-nio-8080-exec-132] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:31:27.424 INFO [http-nio-8080-exec-132] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:31:27.432 INFO [http-nio-8080-exec-132] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+18-Sep-2025 10:31:54.512 INFO [http-nio-8080-exec-129] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Citas]
+18-Sep-2025 10:31:54.513 INFO [http-nio-8080-exec-129] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 10:31:54.518 INFO [http-nio-8080-exec-129] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:31:54.518 INFO [http-nio-8080-exec-129] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:31:55.544 INFO [http-nio-8080-exec-129] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 10:31:56.647 INFO [http-nio-8080-exec-129] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 10:31:56.648 INFO [http-nio-8080-exec-129] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:31:56.648 INFO [http-nio-8080-exec-129] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:31:56.651 INFO [http-nio-8080-exec-129] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+18-Sep-2025 10:31:56.984 INFO [http-nio-8080-exec-127] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Citas]
+18-Sep-2025 10:31:56.987 INFO [http-nio-8080-exec-127] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 10:31:56.996 INFO [http-nio-8080-exec-127] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:31:56.996 INFO [http-nio-8080-exec-127] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:31:58.290 INFO [http-nio-8080-exec-127] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 10:31:59.499 INFO [http-nio-8080-exec-127] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 10:31:59.499 INFO [http-nio-8080-exec-127] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:31:59.499 INFO [http-nio-8080-exec-127] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:31:59.504 INFO [http-nio-8080-exec-127] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+18-Sep-2025 10:31:59.508 INFO [http-nio-8080-exec-137] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 10:31:59.513 INFO [http-nio-8080-exec-137] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:31:59.513 INFO [http-nio-8080-exec-137] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:31:59.514 SEVERE [http-nio-8080-exec-137] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [Citas] creó un ThreadLocal con clave del tipo [com.sun.xml.ws.api.server.ThreadLocalContainerResolver$1] (valor [com.sun.xml.ws.api.server.ThreadLocalContainerResolver$1@6af45ecf]) y un valor del tipo [com.sun.xml.ws.api.server.Container.NoneContainer] (valor [com.sun.xml.ws.api.server.Container$NoneContainer@34f66560]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+18-Sep-2025 10:32:00.017 INFO [http-nio-8080-exec-137] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Citas]
+18-Sep-2025 10:32:04.008 INFO [http-nio-8080-exec-138] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\Citas.xml]
+18-Sep-2025 10:32:04.010 WARNING [http-nio-8080-exec-138] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Citas] in deployment descriptor [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\Citas.xml] has been ignored
+18-Sep-2025 10:32:05.105 INFO [http-nio-8080-exec-138] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+18-Sep-2025 10:32:06.460 INFO [http-nio-8080-exec-138] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: inicializando el servlet de JAX-WS
+18-Sep-2025 10:32:06.461 INFO [http-nio-8080-exec-138] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:32:06.461 INFO [http-nio-8080-exec-138] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: inicializando el listener de contexto de JAX-WS
+18-Sep-2025 10:32:06.465 INFO [http-nio-8080-exec-138] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\josep\OneDrive\Documentos\Escritorio\Pro2\ProyectoProgra2\tomcat\apache-tomcat-9.0.108\conf\Catalina\localhost\Citas.xml] has finished in [2.457] ms
+18-Sep-2025 10:32:06.468 INFO [http-nio-8080-exec-143] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Citas]] after start() had already been called. The second call will be ignored.
+18-Sep-2025 10:32:47.422 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+18-Sep-2025 10:32:47.422 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Sep-2025 10:32:47.429 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+18-Sep-2025 10:32:47.432 INFO [main] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: el servlet de JAX-WS se ha destruido
+18-Sep-2025 10:32:47.436 INFO [main] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:32:47.437 INFO [main] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: el listener de contexto de JAX-WS se ha destruido
+18-Sep-2025 10:32:47.441 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Sep-2025 10:32:47.453 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

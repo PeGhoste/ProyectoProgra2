@@ -7,31 +7,31 @@ import java.util.ArrayList;
 
 import Connection.CsConexion;
 
-public class CsSolicitante {
+public class CsEmpleado {
     
     private Connection con;  // conexión a la base de datos
     private Statement stm;   // para ejecutar consultas
     private ResultSet rs;    // resultados de consultas
     
-    public CsSolicitante() {
+    public CsEmpleado() {
         this.con = null;
         this.stm = null;
     }
     
     // insertar datos
-    public int insertarSolicitante(String Nombres, String Apellidos, String Correo, String Telefono) {
+    public int insertarEmpleado(String Nombres, String Apellidos, String Correo, String Telefono) {
         int respuesta = 0;
-        CsConexion c2 = new CsConexion();
-        con = c2.conectar();
+        CsConexion c1 = new CsConexion();
+        con = c1.conectar();
         
         try {
             stm = con.createStatement();
             respuesta = stm.executeUpdate(
-                "insert into DBProyectoProgra2.dbo.Solicitantes (Nombres, Apellidos, Correo, Telefono) " +
+                "insert into DBProyectoProgra2.dbo.Empleado (Nombre, Apellidos, Correo, Telefono) " +
                 "values ('" + Nombres + "', '" + Apellidos + "', '" + Correo + "', '" + Telefono + "')"
             );
             
-            c2.desconectar();
+            c1.desconectar();
             stm.close();
             con.close();
         } catch (Exception ex) {
@@ -42,22 +42,22 @@ public class CsSolicitante {
     }    
     
     // actualizar datos
-    public int actualizarSolicitante(String Nombres, String Apellidos, String Correo, String Telefono, int idSolicitante) {
+    public int actualizarEmpleado(String Nombres, String Apellidos, String Correo, String Telefono, int idEmpleado) {
         int respuesta = 0;
-        CsConexion c2 = new CsConexion();
-        con = c2.conectar();
+        CsConexion c1 = new CsConexion();
+        con = c1.conectar();
             
         try {
             stm = con.createStatement();
             respuesta = stm.executeUpdate(
-                "update dbo.Solicitantes set Nombres='" + Nombres + 
+                "update dbo.Empleado set Nombres='" + Nombres + 
                 "', Apellidos='" + Apellidos +
                 "', Correo='" + Correo +
-                "', Telefono='" + Telefono +        
-                "' where idSolicitante=" + idSolicitante
+                "', Correo='" + Telefono +
+                "' where idEmpleado=" + idEmpleado
             );
             
-            c2.desconectar();
+            c1.desconectar();
             stm.close();
             con.close();
         } catch (Exception ex) {
@@ -67,18 +67,18 @@ public class CsSolicitante {
     }
     
     // eliminar datos
-    public int eliminarSolicitante(int idSolicitante) {
+    public int eliminarEmpleado(int idEmpleado) {
         int respuesta = 0;
-        CsConexion c2 = new CsConexion();
-        con = c2.conectar();
+        CsConexion c1 = new CsConexion();
+        con = c1.conectar();
         
         try {
             stm = con.createStatement();
             respuesta = stm.executeUpdate(
-                "delete from dbo.Solicitantes where idSolicitante=" + idSolicitante
+                "delete from dbo.Empleado where idEmpleado=" + idEmpleado
             );
             
-            c2.desconectar();
+            c1.desconectar();
             stm.close();
             con.close();
         } catch (Exception ex) {
@@ -88,30 +88,30 @@ public class CsSolicitante {
     }
    
     // listar todos los registros
-    public ArrayList<Solicitante> listarSolicitantes() {
-        Solicitante p = null; 
-        ArrayList<Solicitante> lista = new ArrayList<>();
+    public ArrayList<Empleado> listarEmpleado() {
+        Empleado p = null; 
+        ArrayList<Empleado> lista = new ArrayList<>();
                 
-        CsConexion c2 = new CsConexion();
-        con = c2.conectar();
+        CsConexion c1 = new CsConexion();
+        con = c1.conectar();
         rs = null;
         
         try {
             stm = con.createStatement();
-            rs = stm.executeQuery("select * from dbo.Solicitantes");
+            rs = stm.executeQuery("select * from dbo.Empleado");
             
             while (rs.next()) {
-                p = new Solicitante(
+                p = new Empleado(
                         rs.getString("Nombres"),
-                        rs.getString("Apelldos"),
+                        rs.getString("Apellidos"),
                         rs.getString("Correo"),
                         rs.getString("Telefono"),
-                        rs.getInt("idSolicitante")
+                        rs.getInt("idEmpleado")
                 );
                 lista.add(p);
             }
             
-            c2.desconectar();
+            c1.desconectar();
             stm.close();
             con.close();
         } catch (Exception ex) {
@@ -121,30 +121,30 @@ public class CsSolicitante {
     }
     
     // listar por ID
-    public Solicitante listarSolicitantePorID(int idSolicitante) {
-        Solicitante p = null; 
+    public Empleado listarEmpleadoPorID(int idEmpleado) {
+        Empleado p = null; 
                         
-        CsConexion c2 = new CsConexion();
-        con = c2.conectar();
+        CsConexion c1 = new CsConexion();
+        con = c1.conectar();
         rs = null;
         
         try {
             stm = con.createStatement();
             rs = stm.executeQuery(
-                "select * from dbo.Solicitantes where idSolicitante=" + idSolicitante
+                "select * from dbo.Empleado where idEmpleado=" + idEmpleado
             );
             
             while (rs.next()) {
-                p = new Solicitante(
+                p = new Empleado(
                         rs.getString("Nombres"),
-                        rs.getString("Apelldos"),
+                        rs.getString("Apellidos"),
                         rs.getString("Correo"),
                         rs.getString("Telefono"),
-                        rs.getInt("idSolicitante")
+                        rs.getInt("idEmpleado")
                 );
             }
             
-            c2.desconectar();
+            c1.desconectar();
             stm.close();
             con.close();
         } catch (Exception ex) {

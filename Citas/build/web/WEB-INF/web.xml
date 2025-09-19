@@ -13,6 +13,26 @@
         <servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
+    <servlet>
+        <servlet-name>srvEmpleado</servlet-name>
+        <servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet>
+        <servlet-name>srvHorario</servlet-name>
+        <servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet>
+        <servlet-name>srvUsuario</servlet-name>
+        <servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet>
+        <servlet-name>srvCitas</servlet-name>
+        <servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
     <servlet-mapping>
         <servlet-name>srvEmpresas</servlet-name>
         <url-pattern>/srvEmpresas</url-pattern>
@@ -20,6 +40,22 @@
     <servlet-mapping>
         <servlet-name>srvSolicitante</servlet-name>
         <url-pattern>/srvSolicitante</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>srvEmpleado</servlet-name>
+        <url-pattern>/srvEmpleado</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>srvHorario</servlet-name>
+        <url-pattern>/srvHorario</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>srvUsuario</servlet-name>
+        <url-pattern>/srvUsuario</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>srvCitas</servlet-name>
+        <url-pattern>/srvCitas</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

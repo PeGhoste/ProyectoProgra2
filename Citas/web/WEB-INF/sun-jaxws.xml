@@ -2,4 +2,8 @@
 <endpoints version="2.0" xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime">
   <endpoint implementation="wsService.srvEmpresas" name="srvEmpresas" url-pattern="/srvEmpresas"/>
   <endpoint implementation="wsService.srvSolicitante" name="srvSolicitante" url-pattern="/srvSolicitante"/>
+  <endpoint implementation="wsService.srvEmpleado" name="srvEmpleado" url-pattern="/srvEmpleado"/>
+  <endpoint implementation="wsService.srvHorario" name="srvHorario" url-pattern="/srvHorario"/>
+  <endpoint implementation="wsService.srvUsuario" name="srvUsuario" url-pattern="/srvUsuario"/>
+  <endpoint implementation="wsService.srvCitas" name="srvCitas" url-pattern="/srvCitas"/>
 </endpoints>

@@ -25,18 +25,9 @@ public class srvEmpresas {
     public int insertar(@WebParam(name = "Nombre") String Nombre, 
             @WebParam(name="Descripcion") String Descripcion)
     {
-        
-        try{
-
-            CsEmpresas p = new CsEmpresas();
-
-            return p.insertar(Nombre, Descripcion);
-        }
-        catch(Exception e){
-            e.getMessage();
-            return 404;
-        }
-        
+        CsEmpresas p = new CsEmpresas();
+               
+        return p.insertar(Nombre, Descripcion);
     }
     
     @WebMethod(operationName = "actualizacion")

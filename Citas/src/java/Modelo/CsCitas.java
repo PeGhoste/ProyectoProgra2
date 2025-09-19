@@ -7,19 +7,19 @@ import java.util.ArrayList;
 
 import Connection.CsConexion;
 
-public class CsEmpresas {
+public class CsCitas {
     
     private Connection con;  // conexión a la base de datos
     private Statement stm;   // para ejecutar consultas
     private ResultSet rs;    // resultados de consultas
     
-    public CsEmpresas() {
+    public CsCitas() {
         this.con = null;
         this.stm = null;
     }
     
     // insertar datos
-    public int insertar(String Nombre, String Descripcion) {
+    public int insertarCita(String fechaCita, String horaCita, String motivo, int idSolicitante, int idEmpresa) {
         int respuesta = 0;
         CsConexion c1 = new CsConexion();
         con = c1.conectar();
@@ -27,8 +27,8 @@ public class CsEmpresas {
         try {
             stm = con.createStatement();
             respuesta = stm.executeUpdate(
-                "insert into DBProyectoProgra2.dbo.Empresas (Nombre, Descripcion) " +
-                "values ('" + Nombre + "', '" + Descripcion + "')"
+                "insert into DBProyectoProgra2.dbo.Citas (fechaCita, horaCita, motivo, idSolicitante, idEmpresa) " +
+                "values ('" + fechaCita + "', '" + horaCita + "', '" + motivo + "', " + idSolicitante + ", " + idEmpresa + ")"
             );
             
             c1.desconectar();
@@ -42,7 +42,7 @@ public class CsEmpresas {
     }    
     
     // actualizar datos
-    public int actualizar(String Nombre, String Descripcion, int idEmpresa) {
+    public int actualizarCita(String fechaCita, String horaCita, String motivo, int idSolicitante, int idEmpresa, int idCita) {
         int respuesta = 0;
         CsConexion c1 = new CsConexion();
         con = c1.conectar();
@@ -50,9 +50,12 @@ public class CsEmpresas {
         try {
             stm = con.createStatement();
             respuesta = stm.executeUpdate(
-                "update dbo.Empresas set Nombre='" + Nombre + 
-                "', Descripcion='" + Descripcion + 
-                "' where idEmpresa=" + idEmpresa
+                "update dbo.Citas set fechaCita='" + fechaCita + 
+                "', horaCita='" + horaCita +
+                "', motivo='" + motivo +
+                "', idSolicitante=" + idSolicitante +
+                ", idEmpresa=" + idEmpresa +        
+                " where idCita=" + idCita
             );
             
             c1.desconectar();
@@ -65,7 +68,7 @@ public class CsEmpresas {
     }
     
     // eliminar datos
-    public int eliminar(int idEmpresa) {
+    public int eliminarCita(int idCita) {
         int respuesta = 0;
         CsConexion c1 = new CsConexion();
         con = c1.conectar();
@@ -73,7 +76,7 @@ public class CsEmpresas {
         try {
             stm = con.createStatement();
             respuesta = stm.executeUpdate(
-                "delete from dbo.Empresas where idEmpresa=" + idEmpresa
+                "delete from dbo.Citas where idCita=" + idCita
             );
             
             c1.desconectar();
@@ -86,9 +89,9 @@ public class CsEmpresas {
     }
    
     // listar todos los registros
-    public ArrayList<Empresas> listarEmpresas() {
-        Empresas p = null; 
-        ArrayList<Empresas> lista = new ArrayList<>();
+    public ArrayList<Citas> listarCitas() {
+        Citas p = null; 
+        ArrayList<Citas> lista = new ArrayList<>();
                 
         CsConexion c1 = new CsConexion();
         con = c1.conectar();
@@ -96,13 +99,16 @@ public class CsEmpresas {
         
         try {
             stm = con.createStatement();
-            rs = stm.executeQuery("select * from dbo.Empresas");
+            rs = stm.executeQuery("select * from dbo.Citas");
             
             while (rs.next()) {
-                p = new Empresas(
-                        rs.getString("Nombre"),
-                        rs.getString("Descripcion"),
-                        rs.getInt("idEmpresa")
+                p = new Citas(
+                    rs.getInt("idCita"),
+                    rs.getString("fechaCita"),
+                    rs.getString("horaCita"),
+                    rs.getString("motivo"),
+                    rs.getInt("idSolicitante"),
+                    rs.getInt("idEmpresa")
                 );
                 lista.add(p);
             }
@@ -117,8 +123,8 @@ public class CsEmpresas {
     }
     
     // listar por ID
-    public Empresas listarEmpresasPorID(int idEmpresa) {
-        Empresas p = null; 
+    public Citas listarCitasPorID(int idCita) {
+        Citas p = null; 
                         
         CsConexion c1 = new CsConexion();
         con = c1.conectar();
@@ -127,14 +133,17 @@ public class CsEmpresas {
         try {
             stm = con.createStatement();
             rs = stm.executeQuery(
-                "select * from dbo.Empresas where idEmpresa=" + idEmpresa
+                "select * from dbo.Citas where idCita=" + idCita
             );
             
-            while (rs.next()) {
-                p = new Empresas(
-                        rs.getString("Nombre"),
-                        rs.getString("Descripcion"),
-                        rs.getInt("idEmpresa")
+            if (rs.next()) {
+                p = new Citas(
+                    rs.getInt("idCita"),
+                    rs.getString("fechaCita"),
+                    rs.getString("horaCita"),
+                    rs.getString("motivo"),
+                    rs.getInt("idSolicitante"),
+                    rs.getInt("idEmpresa")
                 );
             }
             

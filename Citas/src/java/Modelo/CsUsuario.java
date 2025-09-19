@@ -7,19 +7,19 @@ import java.util.ArrayList;
 
 import Connection.CsConexion;
 
-public class CsEmpresas {
+public class CsUsuario {
     
     private Connection con;  // conexión a la base de datos
     private Statement stm;   // para ejecutar consultas
     private ResultSet rs;    // resultados de consultas
     
-    public CsEmpresas() {
+    public CsUsuario() {
         this.con = null;
         this.stm = null;
     }
     
     // insertar datos
-    public int insertar(String Nombre, String Descripcion) {
+    public int insertarUsuario(String Username, String Pass, int FK_IdEmpleado) {
         int respuesta = 0;
         CsConexion c1 = new CsConexion();
         con = c1.conectar();
@@ -27,8 +27,8 @@ public class CsEmpresas {
         try {
             stm = con.createStatement();
             respuesta = stm.executeUpdate(
-                "insert into DBProyectoProgra2.dbo.Empresas (Nombre, Descripcion) " +
-                "values ('" + Nombre + "', '" + Descripcion + "')"
+                "insert into DBProyectoProgra2.dbo.Usuario (Username, Pass, FK_IdEmpleado) " +
+                "values ('" + Username + "', '" + Pass + "', " + FK_IdEmpleado + ")"
             );
             
             c1.desconectar();
@@ -42,7 +42,7 @@ public class CsEmpresas {
     }    
     
     // actualizar datos
-    public int actualizar(String Nombre, String Descripcion, int idEmpresa) {
+    public int actualizarUsuario(String Username, String Pass, int FK_IdEmpleado, int IdUsuario) {
         int respuesta = 0;
         CsConexion c1 = new CsConexion();
         con = c1.conectar();
@@ -50,9 +50,10 @@ public class CsEmpresas {
         try {
             stm = con.createStatement();
             respuesta = stm.executeUpdate(
-                "update dbo.Empresas set Nombre='" + Nombre + 
-                "', Descripcion='" + Descripcion + 
-                "' where idEmpresa=" + idEmpresa
+                "update dbo.Usuario set Username='" + Username + 
+                "', Pass='" + Pass + 
+                "', FK_IdEmpleado=" + FK_IdEmpleado +
+                " where IdUsuario=" + IdUsuario
             );
             
             c1.desconectar();
@@ -65,7 +66,7 @@ public class CsEmpresas {
     }
     
     // eliminar datos
-    public int eliminar(int idEmpresa) {
+    public int eliminarUsuario(int IdUsuario) {
         int respuesta = 0;
         CsConexion c1 = new CsConexion();
         con = c1.conectar();
@@ -73,7 +74,7 @@ public class CsEmpresas {
         try {
             stm = con.createStatement();
             respuesta = stm.executeUpdate(
-                "delete from dbo.Empresas where idEmpresa=" + idEmpresa
+                "delete from dbo.Usuario where IdUsuario=" + IdUsuario
             );
             
             c1.desconectar();
@@ -84,11 +85,42 @@ public class CsEmpresas {
         }
         return respuesta; 
     }
+
+
+    // obtener la información del usuario por medio del user y pass
+    public Usuario autenticarUsuario(String username, String password) {
+        Usuario usuario = null;
+        CsConexion c1 = new CsConexion();
+        con = c1.conectar();
+        
+        try {
+            stm = con.createStatement();
+            String query = "SELECT * FROM dbo.Usuario WHERE Username = '" + username + "' AND Pass = '" + password + "'";
+            rs = stm.executeQuery(query);
+            
+            if (rs.next()) {
+                usuario = new Usuario(
+                    rs.getInt("IdUsuario"),
+                    rs.getString("Username"),
+                    rs.getString("Pass"),
+                    rs.getInt("FK_IdEmpleado")
+                );
+            }
+            
+            rs.close();
+            stm.close();
+            c1.desconectar();
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+        
+        return usuario;
+    }
    
     // listar todos los registros
-    public ArrayList<Empresas> listarEmpresas() {
-        Empresas p = null; 
-        ArrayList<Empresas> lista = new ArrayList<>();
+    public ArrayList<Usuario> listarUsuario() {
+        Usuario u = null; 
+        ArrayList<Usuario> lista = new ArrayList<>();
                 
         CsConexion c1 = new CsConexion();
         con = c1.conectar();
@@ -96,15 +128,16 @@ public class CsEmpresas {
         
         try {
             stm = con.createStatement();
-            rs = stm.executeQuery("select * from dbo.Empresas");
+            rs = stm.executeQuery("select * from dbo.Usuario");
             
             while (rs.next()) {
-                p = new Empresas(
-                        rs.getString("Nombre"),
-                        rs.getString("Descripcion"),
-                        rs.getInt("idEmpresa")
+                u = new Usuario(
+                        rs.getInt("IdUsuario"),
+                        rs.getString("Username"),
+                        rs.getString("Pass"),
+                        rs.getInt("FK_IdEmpleado")
                 );
-                lista.add(p);
+                lista.add(u);
             }
             
             c1.desconectar();
@@ -117,8 +150,8 @@ public class CsEmpresas {
     }
     
     // listar por ID
-    public Empresas listarEmpresasPorID(int idEmpresa) {
-        Empresas p = null; 
+    public Usuario listarUsuarioPorID(int IdUsuario) {
+        Usuario u = null; 
                         
         CsConexion c1 = new CsConexion();
         con = c1.conectar();
@@ -127,14 +160,15 @@ public class CsEmpresas {
         try {
             stm = con.createStatement();
             rs = stm.executeQuery(
-                "select * from dbo.Empresas where idEmpresa=" + idEmpresa
+                "select * from dbo.Usuario where IdUsuario=" + IdUsuario
             );
             
             while (rs.next()) {
-                p = new Empresas(
-                        rs.getString("Nombre"),
-                        rs.getString("Descripcion"),
-                        rs.getInt("idEmpresa")
+                u = new Usuario(
+                        rs.getInt("IdUsuario"),
+                        rs.getString("Username"),
+                        rs.getString("Pass"),
+                        rs.getInt("FK_IdEmpleado")
                 );
             }
             
@@ -144,6 +178,6 @@ public class CsEmpresas {
         } catch (Exception ex) {
             ex.printStackTrace();
         }
-        return p;
+        return u;
     }
 }

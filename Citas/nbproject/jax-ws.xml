@@ -7,6 +7,18 @@
     <service name="srvSolicitante">
       <implementation-class>wsService.srvSolicitante</implementation-class>
     </service>
+    <service name="srvEmpleado">
+      <implementation-class>wsService.srvEmpleado</implementation-class>
+    </service>
+    <service name="srvHorario">
+      <implementation-class>wsService.srvHorario</implementation-class>
+    </service>
+    <service name="srvUsuario">
+      <implementation-class>wsService.srvUsuario</implementation-class>
+    </service>
+    <service name="srvCitas">
+      <implementation-class>wsService.srvCitas</implementation-class>
+    </service>
   </services>
   <clients/>
   <jsr109>false</jsr109>
